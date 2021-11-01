@@ -1,4 +1,4 @@
-// Task #1
+// Task #1 - ფუნქცია
 
 // function number(a, b) {
 //   return a * b;  
@@ -22,7 +22,8 @@ function isEven(n) {
 }
 console.log(isEven(getRandomInt(50)));
 
-// Task#2
+// Task#2 - ვალუტა
+
 // var str1 = 'EUR';
 // function getCurrencySymbol(str) {
 //     return str.replace("€", "");
@@ -42,10 +43,20 @@ console.log(getCurrencySymbolFromCode(str1));
 function getCurrencySymbolFromCode(GEL) {
     if (str1 == GEL) {
         return "₾";
-    }   else {
-        return GEL;
+    }   else if (str1 == USD) {
+        return "$";
+    }   else if (str1 == EUR) {
+        return "€";
     }
 }
 console.log(getCurrencySymbolFromCode(str1));
 
-// Task#3
+// Task#3 - UpperCase
+// function UpperCase ()
+var text = 'bulshit';
+
+// returns 'this sentence has some mixed case letters in it.'
+var lower = text.toLowerCase();
+
+// returns 'THIS SENTENCE HAS SOME MIXED CASE LETTERS IN IT.'
+var upper = text.toUpperCase();
