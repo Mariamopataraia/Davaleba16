@@ -21,3 +21,31 @@ function isEven(n) {
     }
 }
 console.log(isEven(getRandomInt(50)));
+
+// Task#2
+// var str1 = 'EUR';
+// function getCurrencySymbol(str) {
+//     return str.replace("€", "");
+//     return curr.replace(/[\d\., ]/g, '');
+//      Number(curr.replace("€", ""));
+//     // 
+// }
+// console.log(getCurrencySymbol(str1));
+
+var str1 = 'GEL';
+
+function getCurrencySymbolFromCode(str) {
+  return str.replace("₾", "");
+}
+console.log(getCurrencySymbolFromCode(str1));
+
+function getCurrencySymbolFromCode(GEL) {
+    if (str1 == GEL) {
+        return "₾";
+    }   else {
+        return GEL;
+    }
+}
+console.log(getCurrencySymbolFromCode(str1));
+
+// Task#3
