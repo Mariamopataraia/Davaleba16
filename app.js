@@ -54,11 +54,8 @@ console.log(getCurrencySymbolFromCode(str1));
 // Task#3 - UpperCase
 
 let text = 'BULSHIT';
-
 let lower = text.toLowerCase();
-
 // let upper = text.toUpperCase();
-
 console.log(text.toLowerCase());
 
 // Task #4
@@ -69,5 +66,13 @@ let evens = number.filter(function(x) {
       return x;
     }
   })
-  
 console.log(evens);
+
+// Task #5
+
+let credentials = {
+    "name": "Mawi",
+    "word": "ok bye",
+};
+// let found = credentials.find(element => element > 10);
+console.log(credentials.find((name) => name === "ok bye"));
