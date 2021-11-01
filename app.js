@@ -79,7 +79,6 @@ const myArray = [
 function myCredentials(myArray, name) {
     return myArray.find(element => element.word === "ok bye");
 }
-// let found = credentials.find(element => element > 10);
 // console.log(credentials.find(name => word === "ok bye"));
 console.log(myCredentials(myArray, "Mawi"));
 
