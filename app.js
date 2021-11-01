@@ -70,16 +70,16 @@ console.log(evens);
 
 // Task #5
 
-let myArray = Credentials [
+const myArray = [
     {
     name: "Mawi",
     word: 'ok bye',
     }
 ];
-function myCredentials(Mawi) {
-    return "ok bye 5";
+function myCredentials(myArray, name) {
+    return myArray.find(element => element.word === "ok bye");
 }
 // let found = credentials.find(element => element > 10);
 // console.log(credentials.find(name => word === "ok bye"));
-console.log(myArray.find((name) => name === "ok bye"));
+console.log(myCredentials(myArray, "Mawi"));
 
