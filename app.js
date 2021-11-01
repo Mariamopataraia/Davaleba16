@@ -53,10 +53,12 @@ console.log(getCurrencySymbolFromCode(str1));
 
 // Task#3 - UpperCase
 
-var text = 'BULSHIT';
+let text = 'BULSHIT';
 
-var lower = text.toLowerCase();
+let lower = text.toLowerCase();
 
-// var upper = text.toUpperCase();
+// let upper = text.toUpperCase();
 
 console.log(text.toLowerCase());
+
+// Task #4
