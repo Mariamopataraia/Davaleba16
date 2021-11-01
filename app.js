@@ -52,11 +52,11 @@ function getCurrencySymbolFromCode(GEL) {
 console.log(getCurrencySymbolFromCode(str1));
 
 // Task#3 - UpperCase
-// function UpperCase ()
-var text = 'bulshit';
 
-// returns 'this sentence has some mixed case letters in it.'
+var text = 'BULSHIT';
+
 var lower = text.toLowerCase();
 
-// returns 'THIS SENTENCE HAS SOME MIXED CASE LETTERS IN IT.'
-var upper = text.toUpperCase();
+// var upper = text.toUpperCase();
+
+console.log(text.toLowerCase());
