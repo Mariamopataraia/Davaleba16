@@ -62,3 +62,12 @@ let lower = text.toLowerCase();
 console.log(text.toLowerCase());
 
 // Task #4
+
+let number = [1, 5, 7, 4, 6, 9, 10];
+let evens = number.filter(function(x) {
+    if (x % 2 === 0 || x === 0) {
+      return x;
+    }
+  })
+  
+console.log(evens);
