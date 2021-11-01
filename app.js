@@ -70,10 +70,12 @@ console.log(evens);
 
 // Task #5
 
-let myArray = Credentials (
-    name: 'Mawi';
-    word: "ok bye 5";
-);
+let myArray = Credentials [
+    {
+    name: "Mawi",
+    word: 'ok bye',
+    }
+];
 function myCredentials(Mawi) {
     return "ok bye 5";
 }
